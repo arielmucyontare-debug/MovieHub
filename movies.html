@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MovieHub - Movies</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Movie<span>Hub</span>
+        </a>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="movies.html" class="active">
+                Movies
+            </a>
+
+            <a href="top10.html">
+                Top 10
+            </a>
+
+            <a href="favorites.html">
+                Favorites
+            </a>
+
+        </nav>
+
+        <button id="themeButton" class="theme-button">
+            🌙
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-header">
+
+            <h1>Movies</h1>
+
+            <p>
+                Browse and discover movies you might enjoy.
+            </p>
+
+        </section>
+
+
+        <section class="movie-controls">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search movies..."
+                >
+
+                <button id="searchButton">
+                    🔍
+                </button>
+
+            </div>
+
+
+            <select id="genreFilter">
+
+                <option value="all">
+                    All Genres
+                </option>
+
+                <option value="action">
+                    Action
+                </option>
+
+                <option value="adventure">
+                    Adventure
+                </option>
+
+                <option value="animation">
+                    Animation
+                </option>
+
+                <option value="comedy">
+                    Comedy
+                </option>
+
+                <option value="fantasy">
+                    Fantasy
+                </option>
+
+                <option value="science fiction">
+                    Science Fiction
+                </option>
+
+                <option value="superhero">
+                    Superhero
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <section class="section">
+
+            <div id="allMovies" class="movie-grid"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>MovieHub</h2>
+
+            <p>
+                Discover movies and entertainment.
+            </p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 MovieHub
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

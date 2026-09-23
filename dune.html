@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Dune: Part Two - MovieHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Movie<span>Hub</span>
+        </a>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="top10.html">Top 10</a>
+            <a href="favorites.html">Favorites</a>
+
+        </nav>
+
+        <button id="themeButton" class="theme-button">
+            🌙
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section class="movie-page">
+
+            <div class="movie-page-poster">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                    alt="Dune Part Two poster"
+                >
+
+            </div>
+
+
+            <div class="movie-page-info">
+
+                <span class="movie-badge">
+                    SCI-FI
+                </span>
+
+                <h1>Dune: Part Two</h1>
+
+                <div class="movie-meta">
+
+                    <span>2024</span>
+                    <span>•</span>
+                    <span>2h 46m</span>
+                    <span>•</span>
+                    <span>PG-13</span>
+
+                </div>
+
+
+                <div class="rating">
+                    ⭐ 8.6 / 10
+                </div>
+
+
+                <p>
+
+                    Paul Atreides unites with Chani and the Fremen
+                    while seeking revenge against those who destroyed
+                    his family.
+
+                </p>
+
+
+                <div class="movie-buttons">
+
+                    <a
+                        href="movie.html?id=dune-2"
+                        class="main-button"
+                    >
+                        View Movie
+                    </a>
+
+                    <button
+                        class="favorite-button"
+                        onclick="toggleFavorite('dune-2')"
+                    >
+                        ❤️ Favorite
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>MovieHub</h2>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 MovieHub
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
